@@ -25,7 +25,7 @@ body {
 	padding-top: 15px;
 
 }
-.navbar-brand h1 {/* Restaturant name */
+.navbar-brand{/* Restaturant name */
 	font-size:30px;
 	color: #AEBEA1;
 	font-family: 'Signika', sans-serif;
@@ -64,14 +64,25 @@ body {
 	font size: 2em;
 	text-align: right;
 }
+.navbar-default .navbar-collapse {
+	border: none;
+	box-shadow: none;
+
+}
+ ul.navbar-nav li {
+	text-align: center;
+	border-top: 1px solid #E6D5AA;
+}
+ ul.navbar-nav li a {
+ 	color: #E6D5AA !important;
+ }
 
 /** Button - Navbar **/
 
 .navbar-header button.navbar-toggle, .navbar-header .icon-bar {border: 1px solid #A2B4AC;}
 
 .navbar-header button.navbar-toggle {
-	clear: both;
-	margin right: 15px;
+
 	margin-bottom: 10px;
 	background-color: #E6D5AA;
 }
@@ -173,4 +184,5 @@ p, .menu-details {
 .navbar-brand h1 { /* Restaurant name */
 	padding-top: 2px;
 	font-size: 3zvw; /* 1vw = 1% of viewport width */
+	margin-top: 0;
 	 }
